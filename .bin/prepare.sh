@@ -19,7 +19,8 @@ apt-get install --yes --quiet --no-install-recommends \
     libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-tk \
     libharfbuzz-dev libfribidi-dev libxcb1-dev \
     python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils tesseract-ocr \
-    flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev
+    flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev \
+    libpoppler-cpp-dev pkg-config python3-dev
 
 
 npm i -g yarn
