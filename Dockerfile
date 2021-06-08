@@ -33,8 +33,6 @@ RUN mkdir -p /home/app && chown app:app /home/app
 # Use user "app" to run the build commands below and the server itself.
 USER app
 
-# Copy the rest of the sources over
-COPY --chown=app:app . .
 ENV PYTHONUNBUFFERED=1 \
     PATH=/home/app/.local/bin:$PATH \
     PORT=80
