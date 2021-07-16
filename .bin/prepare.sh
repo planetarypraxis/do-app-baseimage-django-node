@@ -22,4 +22,7 @@ apt-get install --yes --quiet --no-install-recommends \
     flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig libpulse-dev \
     libpoppler-cpp-dev pkg-config python3-dev ghostscript
 
+# Install pip dependencies that are either needed globally, or _very_ expensive to build
+pip install pgmagick pipenv
+
 npm i -g yarn
