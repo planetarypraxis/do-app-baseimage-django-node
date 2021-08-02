@@ -13,6 +13,8 @@ apt-get install --yes --quiet --no-install-recommends \
     libproj-dev \
     gdal-bin \
     g++ \
+    libmagickwand-dev \
+    libmagickcore5-extra \
     libgraphicsmagick++1-dev \
     libboost-python-dev \
     libtiff5-dev libopenjp2-7-dev zlib1g-dev \
@@ -23,6 +25,6 @@ apt-get install --yes --quiet --no-install-recommends \
     libpoppler-cpp-dev pkg-config python3-dev ghostscript
 
 # Install pip dependencies that are either needed globally, or _very_ expensive to build
-pip install pgmagick pipenv
+pip install Wand pipenv
 
 npm i -g yarn
