@@ -14,7 +14,6 @@ apt-get install --yes --quiet --no-install-recommends \
     gdal-bin \
     g++ \
     libmagickwand-dev \
-    libmagickcore5-extra \
     libgraphicsmagick++1-dev \
     libboost-python-dev \
     libtiff5-dev libopenjp2-7-dev zlib1g-dev \
