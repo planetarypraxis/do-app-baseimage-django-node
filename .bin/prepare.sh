@@ -5,7 +5,8 @@ apt-get install --yes --quiet --no-install-recommends \
     curl \
     build-essential \
     libpq-dev \
-    libmariadbclient-dev \
+    libmariadb-dev \
+    libmariadb-dev-compat \
     libjpeg62-turbo-dev \
     zlib1g-dev \
     libwebp-dev \
