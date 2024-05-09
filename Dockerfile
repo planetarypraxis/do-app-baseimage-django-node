@@ -35,5 +35,4 @@ USER app
 
 ENV PYTHONUNBUFFERED=1 \
     PATH=/home/app/.local/bin:$PATH \
-    PORT=80 \
-    PYTHONPATH=/usr/lib/python3/dist-packages
+    PORT=80
