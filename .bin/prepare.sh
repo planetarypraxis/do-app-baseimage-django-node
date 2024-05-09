@@ -2,6 +2,7 @@ set -e
 
 apt-get update -y
 apt-get install --yes --quiet --no-install-recommends \
+    git-all \
     curl \
     build-essential \
     libpq-dev \
